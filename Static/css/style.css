@@ -1,0 +1,48 @@
+.mainContainer{
+    border: 1px solid black;
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+}
+.container-2{
+    border: 1px solid black;
+    display: flex;
+    padding: 10px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+
+}
+.container-2 div {
+    padding: 10px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+
+}
+.whiteSpace{
+    margin: 5%;
+}
+#inputField{
+    width: 300px;
+    height: 46px;
+    border: 1px solid black;
+    outline: none;
+    vertical-align: middle;
+    margin: 0 auto;
+    text-align: center;
+
+}
+#addToDo {
+    width: 46px;
+    height: 46px;
+    border: 1px solid black;
+    vertical-align: middle;
+    font-size: 30px;
+}
+.to-dos {
+    margin-top: 25px;
+}
+.paragraph.styling{
+    margin: 0;
+}
